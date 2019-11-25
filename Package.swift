@@ -7,14 +7,17 @@ let package = Package(
     products: [
         .library(
             name: "CareKit",
+            type: .static,
             targets: ["CareKit"]),
 
         .library(
             name: "CareKitUI",
+            type: .static,
             targets: ["CareKitUI"]),
 
         .library(
             name: "CareKitStore",
+            type: .static,
             targets: ["CareKitStore"])
     ],
     targets: [
